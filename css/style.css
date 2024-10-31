@@ -1,0 +1,57 @@
+/*
+Colors used:
+Background Color (White): #FAFAFA;
+Primary Color (Dark Grey): #1C1C1C;
+Secondary Color (Light Grey): #8C8C8C;
+*/
+
+body {
+    background-color: #FAFAFA;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #1C1C1C;
+}
+
+
+h1 {
+    font-size: 2.0em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-style: bold;
+}
+
+img {
+    width: 100%;
+  }
+
+  a {
+    color: #1C1C1C;
+    text-decoration: none; 
+  }
+
+  a:hover,
+  a:focus {
+    color: #8C8C8C;
+    text-decoration: underline; 
+  }
+
+  a:visited { 
+    color: #B7B7B7;
+  }
+  a:active { 
+    color: #3A54A2;
+  }
+
+  .button {
+    background-color: #1C1C1C;
+    color: #ffffff; 
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
