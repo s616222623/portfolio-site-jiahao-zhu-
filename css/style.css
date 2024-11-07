@@ -5,6 +5,10 @@ Primary Color (Dark Grey): #1C1C1C;
 Secondary Color (Light Grey): #8C8C8C;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
     background-color: #FAFAFA;
     font-family: "Titillium Web", sans-serif;
@@ -55,3 +59,50 @@ img {
     opacity: 0.8;
     text-decoration: none;
   }
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #8C8C8C; }
+
+header {
+  background-color: #FAFAFA;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+}
+
+#hero {
+  background-color: #FAFAFA;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: left;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+main {
+  padding-top: 133px;
+}
