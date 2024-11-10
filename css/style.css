@@ -110,6 +110,12 @@ main {
   padding-top: 133px;
 }
 
+.social a {
+  display: inline-block;
+  width: 30px;
+  margin: 0 10px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
