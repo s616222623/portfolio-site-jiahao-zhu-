@@ -89,7 +89,7 @@ header {
 
 #hero {
   background-color: #FAFAFA;
-  padding: 0;
+  padding-top: 85px;
   display: inline-block;
   width: 100%;
 }
