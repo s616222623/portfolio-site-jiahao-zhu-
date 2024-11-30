@@ -1,123 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jiahao Zhu UX Design</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
-  <title>Jiahao Zhu UX Design </title>
-</head>
-
-<body>
-
-  <header>
-    <div class="container"><!-- Container -->
-      <div class="navtoggle" id="myNavtoggle">
-      <a href="#">Jiahao Zhu</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
-    </div>
-    </div>
-  </header>
-
-  <main>
-    <div><!-- Section -->
-      <div class="container"><!-- Container -->
-        <hi>About</hi>
+  <body>
+    <header>
+      <div class="container">
+        <!-- Container -->
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="#">Jiahao Zhu</a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-    <div><!-- Section> -->
-      <div class="container"><!-- Container -->
-        <picture>
-          <source srcset="img/Image@1x/About@1x.jpg" media="(max-width:767px)">
-          <img src="img/Image@2x/About@2x.jpg" alt="jiahaozhu">
-        </picture>
-        <div class="row"><!-- Row -->
-          <div class="col-lg-7 col-md-6"><!-- Column -->
-            <h2>My Story</h2>
-            <p>Hello, I'm Jiahao, based in San Francisco, California. I'm a UX designer with a background in industrial
-              design and photography. I'm passionate about creating intuitive, user-friendly designs that improve
-              people's everyday experiences. My attention to detail and focus on the user’s needs make me unique.
-              As a UX designer, I aim to bridge the gap between design and user experience by creating seamless,
-              accessible solutions that cater to diverse audiences.</p>
-            <p>When not working on design projects, I love going out and doing photography. Capturing different moments
-              and perspectives helps me stay creative and inspires my design work. It's a way to explore new ideas and
-              express myself visually, translating them into my designs.</p>
-            <a href="files/Jiahao Zhu_Resume.pdf" target="_blank" download>My Resume </a>
-          </div>
+    </header>
 
-          <div class="col-lg-5 col-md-6"><!-- Column -->
-            <h2>Skills and Tools</h2>
-            <div class="row"><!-- Row -->
-              <div class="col-lg-12 col-md-6"><!-- Column -->
-                <h3>Relevant Skills</h3>
-                <u1>
-                  <li>UX Research</li>
-                  <li>User Flow Creation</li>
-                  <li>Wireframing</li>
-                  <li>Prototyping</li>
-                  <li>Usability Testing</li>
-                  <li>Interaction Design</li>
-                  <li>Accessibility Design</li>
-                </u1>
-              </div>
-              <div class="col-lg-12 col-md-6"><!-- Column -->
-                <h3>Tools I Use</h3>
-                <u1>
-                  <li>Figma</li>
-                  <li>Adobe XD</li>
-                  <li>Sketch</li>
-                  <li>Jira</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe InDesign</li>
-                </u1>
+    <main>
+      <div>
+        <!-- Section -->
+        <div class="container">
+          <!-- Container -->
+          <h1>About</h1>
+        </div>
+      </div>
+      <div>
+        <!-- Section> -->
+        <div class="container">
+          <!-- Container -->
+          <picture>
+            <source
+              srcset="img/Image-1x/About-1x.jpg"
+              media="(max-width:767px)"
+            />
+            <img src="img/Image-2x/About-2x.jpg" alt="jiahaozhu" />
+          </picture>
+          <div class="row">
+            <!-- Row -->
+            <div class="col-lg-7 col-md-6">
+              <!-- Column -->
+              <h2>My Story</h2>
+              <p>
+                Hello, I'm Jiahao, based in San Francisco, California. I'm a UX
+                designer with a background in industrial design and photography.
+                I'm passionate about creating intuitive, user-friendly designs
+                that improve people's everyday experiences. My attention to
+                detail and focus on the user’s needs make me unique. As a UX
+                designer, I aim to bridge the gap between design and user
+                experience by creating seamless, accessible solutions that cater
+                to diverse audiences.
+              </p>
+              <p>
+                When not working on design projects, I love going out and doing
+                photography. Capturing different moments and perspectives helps
+                me stay creative and inspires my design work. It's a way to
+                explore new ideas and express myself visually, translating them
+                into my designs.
+              </p>
+              <a href="files/JiahaoZhu_Resume.pdf" target="_blank" class="button" download
+                >View Resume
+              </a>
+            </div>
+
+            <div class="col-lg-5 col-md-6">
+              <!-- Column -->
+              <h2>Skills and Tools</h2>
+              <div class="row">
+                <!-- Row -->
+                <div class="col-lg-12 col-md-6">
+                  <!-- Column -->
+                  <h3>Relevant Skills</h3>
+                  <ul>
+                    <li>UX Research</li>
+                    <li>User Flow Creation</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                    <li>Usability Testing</li>
+                    <li>Interaction Design</li>
+                    <li>Accessibility Design</li>
+                  </ul>
+                </div>
+                <div class="col-lg-12 col-md-6">
+                  <!-- Column -->
+                  <h3>Tools I Use</h3>
+                  <ul>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Sketch</li>
+                    <li>Jira</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe InDesign</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer id="contact">
-    <div class="container"><!-- Container -->
-      <h2>Get in Touch</h2>
-      <p>
-        Do you like my work and want to discuss opportunities? Please get in touch.
-        <br>Phone: <a href="tel:#">+11234567890</a>
-        <br>Email: <a href="mailto:#">example@gmail.com</a>
-      </p>
-      <div class="social">
-        <a href="http://www.linkedin.com/in/jiahao-zhu-057bb3191" target="_blank">
-          <img src="img/linkedin-in-brands-solid.svg">
-        </a>
-        <a href="https://www.instagram.com/jh_z.photography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          target="_blank">
-          <img src="img/instagram-brands-solid.svg">
-        </a>
+    <footer id="contact">
+      <div class="container">
+        <!-- Container -->
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and want to discuss opportunities? Please get in
+          touch.
+          <br />Phone: <a href="tel:#">+11234567890</a> <br />Email:
+          <a href="mailto:#">example@gmail.com</a>
+        </p>
+        <div class="social">
+          <a
+            href="http://www.linkedin.com/in/jiahao-zhu-057bb3191"
+            target="_blank"
+          >
+            <img
+              src="img/linkedin-in-brands-solid.svg"
+              alt="Image of Linkedin icon"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/jh_z.photography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+          >
+            <img
+              src="img/instagram-brands-solid.svg"
+              alt="Image of Instagram icon"
+            />
+          </a>
+        </div>
+        <div>
+          <p>Copyright Jiahao Zhu 2024</p>
+        </div>
       </div>
-      <div>
-        <p>Copyright Jiahao Zhu 2024</p>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

@@ -10,61 +10,61 @@ Secondary Color (Light Grey): #8C8C8C;
 }
 
 body {
-    background-color: #FAFAFA;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #1C1C1C;
+  background-color: #fafafa;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1c1c1c;
 }
 
 h1 {
-    font-size: 2.0em;
-    line-height: 1.4em;
-    font-weight: 500;
-    font-style: bold;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 500;
+  font-weight: bold;
 }
 
 img {
-    width: 100%;
-  }
+  width: 100%;
+}
 
-  a {
-    color: #1C1C1C;
-    text-decoration: none; 
-  }
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
 
-  a:hover,
-  a:focus {
-    color: #8C8C8C;
-    text-decoration: underline; 
-  }
+a:hover,
+a:focus {
+  color: #8c8c8c;
+  text-decoration: underline;
+}
 
-  a:visited { 
-    color: #B7B7B7;
-  }
-  a:active { 
-    color: #3A54A2;
-  }
+a:visited {
+  color: #a8a8a8;
+}
+a:active {
+  color: #3a54a2;
+}
 
-  .button {
-    background-color: #1C1C1C;
-    color: #ffffff; 
-    font-size: 16px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.2s opacity;
-  }
+.button {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s opacity;
+}
 
-  .button:hover {
-    opacity: 0.8;
-    text-decoration: none;
-  }
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
 
-  .logo {
-    max-width: 150px;
-  }
+.logo {
+  max-width: 150px;
+}
 
 /* Layout styling */
 
@@ -76,19 +76,21 @@ img {
   margin: 25px 0;
 }
 
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #8C8C8C; }
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #8c8c8c;
+}
 
 header {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 10px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
-  
 }
 
 #hero {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding-top: 85px;
   display: inline-block;
   width: 100%;
@@ -123,7 +125,8 @@ main {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -135,20 +138,20 @@ main {
   padding-right: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #8C8C8C;
+  border-top: 1px solid #8c8c8c;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -156,7 +159,6 @@ main {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 641px) {
-
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
@@ -186,30 +188,54 @@ Medium devices (640px and larger)
     margin-left: 50px;
     font-size: 30px;
   }
-  
-  .col-md-1 {width: 8.33%;}
-  .col-md-2 {width: 16.66%;}
-  .col-md-3 {width: 25%;}
-  .col-md-4 {width: 33.33%;}
-  .col-md-5 {width: 41.66%;}
-  .col-md-6 {width: 50%;}
-  .col-md-7 {width: 58.33%;}
-  .col-md-8 {width: 66.66%;}
-  .col-md-9 {width: 75%;}
-  .col-md-10 {width: 83.33%;}
-  .col-md-11 {width: 91.66%;}
-  .col-md-12 {width: 100%;}
-  
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
   [class*="col-"] {
     float: left;
   }
-  
+
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
-  
+
   [class*="col-"] {
     padding-left: 10px;
     padding-right: 10px;
@@ -231,18 +257,42 @@ Large devices (1024px or larger)
     margin-top: 4px;
   }
 
-  .col-lg-1 {width: 8.33%;}
-  .col-lg-2 {width: 16.66%;}
-  .col-lg-3 {width: 25%;}
-  .col-lg-4 {width: 33.33%;}
-  .col-lg-5 {width: 41.66%;}
-  .col-lg-6 {width: 50%;}
-  .col-lg-7 {width: 58.33%;}
-  .col-lg-8 {width: 66.66%;}
-  .col-lg-9 {width: 75%;}
-  .col-lg-10 {width: 83.33%;}
-  .col-lg-11 {width: 91.66%;}
-  .col-lg-12 {width: 100%;}
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
 
   [class*="col-"] {
     float: left;
@@ -256,11 +306,21 @@ Large devices (1024px or larger)
 }
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  from {
+    fill: #edc655;
+  }
+  to {
+    fill: #f76414;
+  }
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #f76414;
+  }
 }
 
 .sun {
@@ -272,8 +332,12 @@ Large devices (1024px or larger)
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .cloud-front {
@@ -285,12 +349,14 @@ Large devices (1024px or larger)
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
-
